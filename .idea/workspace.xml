@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="creation des differentes classes (perso, race, type...)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestPerso">
+  <component name="RunManager" selected="JUnit.TestPerso.onCreeUnPerso">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
@@ -58,20 +53,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPerso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerso.onCreeUnPerso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
@@ -81,15 +63,32 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="onCreeUnPerso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerso.oncreerunperso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
+      <option name="METHOD_NAME" value="oncreerunperso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPerso" />
-        <item itemvalue="Application.main.Main" />
+        <item itemvalue="JUnit.TestPerso.onCreeUnPerso" />
+        <item itemvalue="JUnit.TestPerso.oncreerunperso" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -102,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669281296188</updated>
-      <workItem from="1669281297929" duration="3000000" />
+      <workItem from="1669281297929" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -111,14 +110,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669282532070</updated>
     </task>
-    <task id="LOCAL-00002" summary="creation des differentes classes (perso, race, type...)">
-      <created>1669283936770</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669283936770</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +141,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <MESSAGE value="creation des differentes classes (perso, race, type...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation des differentes classes (perso, race, type...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

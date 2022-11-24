@@ -6,12 +6,20 @@ public class Perso {
     private String Attkspe;
     private String transformation;
 
-    Scanner saisienom = new Scanner(System.in);
-    public Perso(String nom, String attkspe, String transformation) {
+    private int vie;
 
+    private int attaque;
+
+    private int defense;
+
+
+    public Perso(String nom, String attkspe, String transformation, int vie, int attaque, int defense) {
         this.nom = nom;
-        this.Attkspe = attkspe;
+        Attkspe = attkspe;
         this.transformation = transformation;
+        this.vie = vie;
+        this.attaque = attaque;
+        this.defense = defense;
     }
 
     public String getNom() {
@@ -30,7 +38,25 @@ public class Perso {
         return transformation;
     }
 
+    public int getVie() {
+        return vie;
+    }
+
+    public int getAttaque() {
+        return attaque;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
     public void setTransformation(String transformation) {
         this.transformation = transformation;
     }
+
+
+
+
+
+
 }
