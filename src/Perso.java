@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public class Perso {
-    private Scanner nom;
+    private String nom;
     private String Attkspe;
     private String transformation;
     Scanner saisienom = new Scanner(System.in);
     public Perso(String nom, String attkspe, String transformation) {
         System.out.println("Entrez un blaze");
-        this.nom = saisienom;
-        Attkspe = attkspe;
+        this.nom = saisienom.next();
+        this.Attkspe = attkspe;
         this.transformation = transformation;
     }
 
-    public Scanner getNom() {
+    public String getNom() {
         return nom;
     }
 
