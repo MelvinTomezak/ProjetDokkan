@@ -21,6 +21,9 @@ public class Perso {
         this.attaque = attaque;
         this.defense = defense;
     }
+    public void type (Type tyype) {
+        System.out.println("Choisie un type" + Type.values());
+    }
 
     public String getNom() {
         return nom;
