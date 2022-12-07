@@ -1,5 +1,14 @@
 package main;
 
 public enum Type {
-    Agilite, Endurance, Intelligence, Puissance, Technique
+    Agi("Agilité"), Pui("Puissance"), Tech("Technique"), Int("Intelligence"), End("Endurance");
+    private String type;
+
+    private Type (String type) {
+        this.type = type;
+    }
+
+    public String getType(){
+        return this.type;
+    }
 }

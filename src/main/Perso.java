@@ -6,23 +6,65 @@ public class Perso {
     private String Attkspe;
     private String transformation;
 
-    private int vie;
+    private int vie = 10;
 
-    private int attaque;
+    private int attaque = 10;
 
-    private int defense;
+    private int defense = 10;
 
 
-    public Perso(String nom, String attkspe, String transformation, int vie, int attaque, int defense) {
+    public Perso(String nom, String attkspe, String transformation) {
         this.nom = nom;
         Attkspe = attkspe;
         this.transformation = transformation;
-        this.vie = vie;
-        this.attaque = attaque;
-        this.defense = defense;
     }
-    public void type (Type tyype) {
-        System.out.println("Choisie un type" + Type.values());
+
+    public void Race(Race choice) {
+        Race race;
+        switch (choice) {
+            case A:
+                race = Race.A;
+            case B:
+                race = Race.B;
+            case C:
+                race = Race.C;
+            case D:
+                race = Race.D;
+            case E:
+                race = Race.E;
+        }
+        System.out.println(choice);
+    }
+
+    public void Type(Type choix) {
+        Type type;
+        switch (choix) {
+            case Agi:
+                type = Type.Agi;
+                vie = 9;
+                defense = 9;
+                attaque = 12;
+            case Pui:
+                type = Type.Pui;
+                vie = 8;
+                defense = 11;
+                attaque = 11;
+            case Tech:
+                type = Type.Tech;
+                vie = 10;
+                defense = 8;
+                attaque = 12;
+            case Int:
+                type = Type.Int;
+                vie = 10;
+                defense = 10;
+                attaque = 10;
+            case End:
+                type = Type.End;
+                vie = 12;
+                defense = 12;
+                attaque = 6;
+        }
     }
 
     public String getNom() {
@@ -42,24 +84,18 @@ public class Perso {
     }
 
     public int getVie() {
-        return vie;
+        return this.vie;
     }
 
     public int getAttaque() {
-        return attaque;
+        return this.attaque;
     }
 
     public int getDefense() {
-        return defense;
+        return this.defense;
     }
 
     public void setTransformation(String transformation) {
         this.transformation = transformation;
     }
-
-
-
-
-
-
 }

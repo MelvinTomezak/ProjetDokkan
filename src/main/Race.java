@@ -1,5 +1,16 @@
 package main;
 
 public enum Race {
-    cyborg, majin, namek, saiyan, terrien
+    A("cyborg"), B("majin"), C("namek"),D("saiyan"), E("terrien");
+    private String race;
+    private Race(String race) {
+        this.race = race;
+    }
+
+    public String getRace(){
+        return this.race;
+    }
+
+
+
 }
