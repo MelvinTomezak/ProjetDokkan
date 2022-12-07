@@ -9,7 +9,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import java.net.MalformedURLException;
 
 public class TestPerso {
-    Perso perso = new Perso("Moha", "KAMEHAMEHA", "SSJ1");
+    Perso perso = new Perso("Moha");
     Race race = Race.A;
     Type type = Type.Agi;
 

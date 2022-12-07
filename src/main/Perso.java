@@ -13,10 +13,8 @@ public class Perso {
     private int defense = 10;
 
 
-    public Perso(String nom, String attkspe, String transformation) {
+    public Perso(String nom) {
         this.nom = nom;
-        Attkspe = attkspe;
-        this.transformation = transformation;
     }
 
     public void Race(Race choice) {

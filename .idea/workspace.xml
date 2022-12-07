@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Avancement des types, test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_11_28_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_11_28__Changes_.xml" beforeDir="false" />
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Attribution des nouvelles valeurs apres la selection du type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,7 +144,7 @@
       <workItem from="1669281297929" duration="3000000" />
       <workItem from="1669362366651" duration="5479000" />
       <workItem from="1669624704394" duration="41000" />
-      <workItem from="1670426564389" duration="1580000" />
+      <workItem from="1670426564389" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669288568649</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attribution des nouvelles valeurs apres la selection du type">
+      <created>1670428330896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670428330896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +207,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="creation des differentes classes (perso, race, type...)" />
     <MESSAGE value="Avancement des types, test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avancement des types, test" />
+    <MESSAGE value="Attribution des nouvelles valeurs apres la selection du type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attribution des nouvelles valeurs apres la selection du type" />
   </component>
 </project>
