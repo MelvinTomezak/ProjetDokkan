@@ -6,7 +6,7 @@ public class Combat {
     private Perso perso;
     private Mechant mechant;
     private String choix;
-    private int choi;
+    private boolean choi;
     private String choixJoueur;
 
     private String choixMechant;
@@ -28,13 +28,15 @@ public class Combat {
         }
     }
     public void ChoixDuMechant() {
-
-        if (choi == 0){
-            choixMechant = ("Attaque");
+        Random random = new Random();
+        choi = random.nextBoolean();
+        System.out.println(choi);
+        if (choi == true){
+            setChoixMechant("Attaque");
             System.out.println("Attaque");
         }
-        if (choi > 0) {
-            choixMechant = ("Defense");
+        if (choi == false) {
+            setChoixMechant("Defense");
             System.out.println("Defense");
         }
     }

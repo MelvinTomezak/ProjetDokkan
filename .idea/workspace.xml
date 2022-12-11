@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation des classes combat et mechant">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation de la classe combat + test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,20 +44,7 @@
     "last_opened_file_path": "C:/Users/Melvin/Documents/Cours/SAELAVRAI"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestPerso.TestCombatChoixJoueur">
-    <configuration name="main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestPerso.TestChoixDuMechant">
     <configuration name="TestPerso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
@@ -87,6 +71,22 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
       <option name="METHOD_NAME" value="TestAttaque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerso.TestChoixDuMechant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
+      <option name="METHOD_NAME" value="TestChoixDuMechant" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPerso.TestChoixDuMechant" />
         <item itemvalue="JUnit.TestPerso.TestCombatChoixJoueur" />
         <item itemvalue="JUnit.TestPerso.TestChoixMechant" />
         <item itemvalue="JUnit.TestPerso.TestAttaque" />
         <item itemvalue="JUnit.TestPerso" />
-        <item itemvalue="Application.main.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1670492204395" duration="841000" />
       <workItem from="1670541757694" duration="324000" />
       <workItem from="1670755622593" duration="2725000" />
-      <workItem from="1670776968778" duration="5228000" />
+      <workItem from="1670776968778" duration="6658000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670430009722</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creation de la classe combat + test">
+      <created>1670782257918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670782257918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +228,7 @@
     <MESSAGE value="Avancement des types, test" />
     <MESSAGE value="Attribution des nouvelles valeurs apres la selection du type" />
     <MESSAGE value="Creation des classes combat et mechant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation des classes combat et mechant" />
+    <MESSAGE value="Creation de la classe combat + test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation de la classe combat + test" />
   </component>
 </project>

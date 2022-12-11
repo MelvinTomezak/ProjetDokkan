@@ -45,9 +45,12 @@ public class TestPerso {
     }
     @Test
     void TestCombatChoixJoueur() {
-        perso.Type(Type.Agi);
-        Mechant mechant = new Mechant(1,1,6,"ZORO","P","Z");
         combat.setChoixJoueur("Attaque");
         combat.combatAttaqueJoueur();
+    }
+    @Test
+    void TestChoixDuMechant() {
+        combat.ChoixDuMechant();
+        System.out.println(combat.getChoixMechant());
     }
 }
