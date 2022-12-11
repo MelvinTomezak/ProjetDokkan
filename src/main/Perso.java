@@ -12,7 +12,6 @@ public class Perso {
 
     private int defense = 10;
 
-
     public Perso(String nom) {
         this.nom = nom;
     }
@@ -33,7 +32,17 @@ public class Perso {
         }
         System.out.println(choice);
     }
-
+    public void Genre(Genre choix) {
+        Genre genre;
+        switch (choix){
+            case MAL:
+                genre = Genre.MAL;
+                System.out.println("Vous êtes un personnage de type Masculin");
+            case FEMME:
+                genre = Genre.FEMME;
+                System.out.println("Vous êtes un personnage de type Feminin");
+        }
+    }
     public void Type(Type choix) {
         Type type;
         switch (choix) {
@@ -91,6 +100,18 @@ public class Perso {
 
     public int getDefense() {
         return this.defense;
+    }
+
+    public void setVie(int vie) {
+        this.vie = vie;
+    }
+
+    public void setAttaque(int attaque) {
+        this.attaque = attaque;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
     }
 
     public void setTransformation(String transformation) {

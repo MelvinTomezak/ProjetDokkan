@@ -1,8 +1,6 @@
 package test;
 
-import main.Perso;
-import main.Race;
-import main.Type;
+import main.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
@@ -10,6 +8,8 @@ import java.net.MalformedURLException;
 
 public class TestPerso {
     Perso perso = new Perso("Moha");
+    Mechant mechant = new Mechant(1,1,1,"Djib","Z","Z");
+    Combat combat = new Combat(perso, mechant);
     Race race = Race.A;
     Type type = Type.Agi;
 
@@ -38,5 +38,16 @@ public class TestPerso {
         System.out.println("ATTAQUE" + perso.getAttaque());
         System.out.println("defense" + perso.getVie());
         System.out.println("vie" + perso.getDefense());
+    }
+    @Test
+    void TestChoixMechant(){
+        System.out.println(combat.getChoixMechant());
+    }
+    @Test
+    void TestCombatChoixJoueur() {
+        perso.Type(Type.Agi);
+        Mechant mechant = new Mechant(1,1,6,"ZORO","P","Z");
+        combat.setChoixJoueur("Attaque");
+        combat.combatAttaqueJoueur();
     }
 }

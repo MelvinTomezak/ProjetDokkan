@@ -1,10 +1,7 @@
 package main;
 
-public class Jeu extends Perso {
+public class Jeu {
 
-    public Jeu(String nom, String attkspe, String transformation) {
-        super(nom);
-    }
 }
 
 
