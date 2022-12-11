@@ -8,14 +8,13 @@ public class Mechant {
     private String Transformation;
     private String Attkspe;
 
-    public Mechant(int attaque, int defense, int vie, String nom, String transformation, String attkspe) {
+    public Mechant(int attaque, int defense, int vie, String nom) {
         this.attaque = attaque;
         this.defense = defense;
         this.vie = vie;
         this.nom = nom;
-        Transformation = transformation;
-        Attkspe = attkspe;
     }
+
     public int getAttaque() {
         return attaque;
     }

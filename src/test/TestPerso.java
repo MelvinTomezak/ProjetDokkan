@@ -8,7 +8,7 @@ import java.net.MalformedURLException;
 
 public class TestPerso {
     Perso perso = new Perso("Moha");
-    Mechant mechant = new Mechant(1,1,1,"Djib","Z","Z");
+    Mechant mechant = new Mechant(5, 5, 5, "Djib");
     Combat combat = new Combat(perso, mechant);
     Race race = Race.A;
     Type type = Type.Agi;

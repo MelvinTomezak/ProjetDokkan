@@ -23,21 +23,26 @@ public class Combat {
                 System.out.println("Ta perdu L");
             }
         }
-        if (choixJoueur == "defense"){
-            perso.setDefense(perso.getDefense() - mechant.getAttaque());
+        if (choixJoueur == "Defense"){
+           if (choixMechant == "Attaque") {
+               perso.setDefense(perso.getDefense() - mechant.getAttaque());
+           }
+           if (choixMechant == "Defense"){
+               System.out.println("Vous défendez tout les deux");
+           }
         }
     }
     public void ChoixDuMechant() {
         Random random = new Random();
         choi = random.nextBoolean();
-        System.out.println(choi);
         if (choi == true){
             setChoixMechant("Attaque");
-            System.out.println("Attaque");
         }
         if (choi == false) {
             setChoixMechant("Defense");
-            System.out.println("Defense");
+        }
+        if (getChoixMechant() == "Attaque"){
+
         }
     }
     public Perso getPerso() {
