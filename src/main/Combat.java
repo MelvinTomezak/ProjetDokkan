@@ -18,10 +18,7 @@ public class Combat {
 
     public void combatAttaqueJoueur() {
         if (choixJoueur == "Attaque"){
-            mechant.setVie(mechant.getVie() - perso.getAttaque());
-            if (mechant.getVie() <=0) {
-                System.out.println("Ta perdu L");
-            }
+           mechant.setVie(mechant.getVie() - perso.getAttaque());
         }
         if (choixJoueur == "Defense"){
            if (choixMechant == "Attaque") {
