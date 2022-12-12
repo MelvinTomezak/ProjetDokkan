@@ -1,0 +1,93 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"28255e4a-7f51-4fc3-a0b8-4d41a737e2b1\" name=\"Changes\" comment=\"Creation de la classe combat + test\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/Combat.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/Combat.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/TestPerso.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/TestPerso.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HzI4HzjsTVfqbWC1L4N7XJNGoW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/Melvin/Documents/Cours/SAELAVRAI\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"JUnit.TestPerso.TestChoixDuMechant\">\r\n    <configuration name=\"TestPerso\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.TestPerso\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPerso.TestAttaque\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.TestPerso\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestAttaque\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPerso.TestChoixDuMechant\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.TestPerso\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestChoixDuMechant\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPerso.TestChoixMechant\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.TestPerso\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestChoixMechant\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPerso.TestCombatChoixJoueur\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test.TestPerso\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestCombatChoixJoueur\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.TestPerso.TestChoixDuMechant\" />\r\n        <item itemvalue=\"JUnit.TestPerso.TestCombatChoixJoueur\" />\r\n        <item itemvalue=\"JUnit.TestPerso.TestChoixMechant\" />\r\n        <item itemvalue=\"JUnit.TestPerso.TestAttaque\" />\r\n        <item itemvalue=\"JUnit.TestPerso\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"28255e4a-7f51-4fc3-a0b8-4d41a737e2b1\" name=\"Changes\" comment=\"\" />\r\n      <created>1669281296188</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669281296188</updated>\r\n      <workItem from=\"1669281297929\" duration=\"3000000\" />\r\n      <workItem from=\"1669362366651\" duration=\"5479000\" />\r\n      <workItem from=\"1669624704394\" duration=\"41000\" />\r\n      <workItem from=\"1670426564389\" duration=\"3476000\" />\r\n      <workItem from=\"1670492204395\" duration=\"841000\" />\r\n      <workItem from=\"1670541757694\" duration=\"324000\" />\r\n      <workItem from=\"1670755622593\" duration=\"2725000\" />\r\n      <workItem from=\"1670776968778\" duration=\"6658000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test\">\r\n      <created>1669282532070</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669282532070</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"creation des differentes classes (perso, race, type...)\">\r\n      <created>1669283936770</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669283936770</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Avancement des types, test\">\r\n      <created>1669288568649</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669288568649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Attribution des nouvelles valeurs apres la selection du type\">\r\n      <created>1670428330896</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670428330896</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Creation des classes combat et mechant\">\r\n      <created>1670430009722</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670430009722</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Creation de la classe combat + test\">\r\n      <created>1670782257918</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670782257918</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"creation des differentes classes (perso, race, type...)\" />\r\n    <MESSAGE value=\"Avancement des types, test\" />\r\n    <MESSAGE value=\"Attribution des nouvelles valeurs apres la selection du type\" />\r\n    <MESSAGE value=\"Creation des classes combat et mechant\" />\r\n    <MESSAGE value=\"Creation de la classe combat + test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Creation de la classe combat + test\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 73b1e902e43066e6dc34f74b6d87e5f025db8c6e)
++++ b/.idea/workspace.xml	(date 1670784460414)
+@@ -1,10 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation de la classe combat + test">
++    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Thread client serveur pour lancer la partie">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Combat.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,9 +39,14 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/Melvin/Documents/Cours/SAELAVRAI"
++    "last_opened_file_path": "C:/Users/kaddo/Downloads/ProjetDokkan"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="main" />
++    </key>
++  </component>
+   <component name="RunManager" selected="JUnit.TestPerso.TestChoixDuMechant">
+     <configuration name="TestPerso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
+@@ -150,6 +153,7 @@
+       <workItem from="1670541757694" duration="324000" />
+       <workItem from="1670755622593" duration="2725000" />
+       <workItem from="1670776968778" duration="6658000" />
++      <workItem from="1670784029250" duration="428000" />
+     </task>
+     <task id="LOCAL-00001" summary="test">
+       <created>1669282532070</created>
+@@ -193,7 +197,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670782257918</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="Thread client serveur pour lancer la partie">
++      <created>1670784447415</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1670784447415</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -204,19 +215,7 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="main/master" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+@@ -229,6 +228,7 @@
+     <MESSAGE value="Attribution des nouvelles valeurs apres la selection du type" />
+     <MESSAGE value="Creation des classes combat et mechant" />
+     <MESSAGE value="Creation de la classe combat + test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Creation de la classe combat + test" />
++    <MESSAGE value="Thread client serveur pour lancer la partie" />
++    <option name="LAST_COMMIT_MESSAGE" value="Thread client serveur pour lancer la partie" />
+   </component>
+ </project>
+\ No newline at end of file
