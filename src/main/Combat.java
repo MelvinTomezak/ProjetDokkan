@@ -3,14 +3,18 @@ package main;
 import java.util.Random;
 
 public class Combat {
+    private boolean combatTerminer = false;
     private Perso perso;
     private Mechant mechant;
     private String choix;
     private boolean choi;
     private String choixJoueur;
-
+    private String bonus;
     private String choixMechant;
-    private boolean combatTerminer = false;
+    private int MechantVaincue;
+    private int RegenAttaque;
+    private int RegenVie;
+    private int RegenDefense;
 
     public Combat(Perso perso, Mechant mechant) {
         this.perso = perso;
@@ -35,11 +39,11 @@ public class Combat {
         if (choixJoueur == "Defense" && choixMechant == "Defense") {
             System.out.println("Vous etes tout les deux en position de defense.");
         }
-        if (perso.getDefense() <= 0) {
+        if (perso.getDefense() == 0) {
             System.out.println("vous n'avez plus de defense");
             perso.setVie(perso.getVie() - mechant.getAttaque());
         }
-        if (mechant.getDefense() <= 0){
+        if (mechant.getDefense() == 0){
             System.out.println("Le mechant n'a plus de defense");
             mechant.setVie(mechant.getVie() - perso.getAttaque());
         }
@@ -96,4 +100,32 @@ public class Combat {
     public void setChoixMechant(String choixMechant) {
     this.choixMechant = choixMechant;
     }
-}
+
+    public int getMechantVaincue() {
+        return MechantVaincue;
+    }
+
+    public void setMechantVaincue(int mechantVaincue) {
+        MechantVaincue = mechantVaincue;
+    }
+        public void Bonus(String bonus){
+        if (combatTerminer == true){
+            MechantVaincue = MechantVaincue +1;
+            System.out.println("Felicitation vous avez vaincus le boss n° " + getMechantVaincue());
+            perso.setVie(RegenVie);
+            perso.setAttaque(RegenAttaque);
+            perso.setDefense(RegenDefense);
+            System.out.println("Vous obtenez une régeneration " + perso.getAttaque() + perso.getVie() + perso.getDefense());
+            System.out.println("Vous pouvez maintenant choisir un bonus ");
+            if (bonus == "Attaque" ){
+                perso.setAttaque(perso.getAttaque() + 1);
+            }
+            if (bonus == "Defense"){
+                perso.setDefense(perso.getDefense() + 1);
+            }
+            if (bonus == "Vie"){
+                perso.setDefense(perso.getDefense() + 1);
+            }
+        }
+        }
+    }

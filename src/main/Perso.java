@@ -3,9 +3,6 @@ package main;
 import java.util.Scanner;
 public class Perso {
     private String nom;
-    private String Attkspe;
-    private String transformation;
-
     private int vie = 10;
 
     private int attaque = 10;
@@ -77,19 +74,6 @@ public class Perso {
     public String getNom() {
         return nom;
     }
-
-    public String getAttkspe() {
-        return Attkspe;
-    }
-
-    public void setAttkspe(String attkspe) {
-        Attkspe = attkspe;
-    }
-
-    public String getTransformation() {
-        return transformation;
-    }
-
     public int getVie() {
         return this.vie;
     }
@@ -112,9 +96,5 @@ public class Perso {
 
     public void setDefense(int defense) {
         this.defense = defense;
-    }
-
-    public void setTransformation(String transformation) {
-        this.transformation = transformation;
     }
 }
