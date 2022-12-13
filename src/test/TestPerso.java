@@ -46,7 +46,7 @@ public class TestPerso {
     @Test
     void TestCombatChoixJoueur() {
         combat.setChoixJoueur("Attaque");
-        combat.combatAttaqueJoueur();
+        combat.combatJoueurMechant();
     }
     @Test
     void TestChoixDuMechant() {

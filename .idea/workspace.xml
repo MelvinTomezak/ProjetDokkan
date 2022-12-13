@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="correction jeu">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation d'un enum pour les differentes actions + creation du jeu en automatique + creation de test">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2022_20_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2022_20_59__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,16 +17,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="57cf88d8-6203-4059-b993-e88f883510f3" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,11 +44,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Client" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestPerso.TestChoixDuMechant" />
         <item itemvalue="JUnit.TestPerso.TestCombatChoixJoueur" />
+        <item itemvalue="JUnit.TestPerso.TestChoixDuMechant" />
       </list>
     </recent_temporary>
   </component>
@@ -143,8 +144,8 @@
       <workItem from="1670492204395" duration="841000" />
       <workItem from="1670541757694" duration="324000" />
       <workItem from="1670755622593" duration="2725000" />
-      <workItem from="1670776968778" duration="6658000" />
-      <workItem from="1670834382894" duration="935000" />
+      <workItem from="1670776968778" duration="11057000" />
+      <workItem from="1670958657044" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -188,12 +189,12 @@
       <option name="project" value="LOCAL" />
       <updated>1670782257918</updated>
     </task>
-    <task id="LOCAL-00007" summary="correction jeu">
-      <created>1670789844276</created>
+    <task id="LOCAL-00007" summary="Creation du choix du mechant en aleatoire">
+      <created>1670783676700</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1670789844276</updated>
+      <updated>1670783676700</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -212,7 +213,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="main/master" />
                       </list>
                     </value>
                   </entry>
@@ -231,8 +232,7 @@
     <MESSAGE value="Attribution des nouvelles valeurs apres la selection du type" />
     <MESSAGE value="Creation des classes combat et mechant" />
     <MESSAGE value="Creation de la classe combat + test" />
-    <MESSAGE value="Thread client serveur pour lancer la partie" />
-    <MESSAGE value="correction jeu" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction jeu" />
+    <MESSAGE value="Creation du choix du mechant en aleatoire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation du choix du mechant en aleatoire" />
   </component>
 </project>

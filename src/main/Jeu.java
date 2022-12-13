@@ -20,19 +20,17 @@ public class Jeu {
         while (perso.getVie() > 0 || mechant.getVie() > 0) {
             combat.ChoixDuMechant();
             System.out.println("Choix du mechant " + combat.getChoixMechant());
-            combat.setChoixJoueur("Attaque");
-            combat.combatAttaqueJoueur();
-
-            if (perso.getVie() <= 0) {
-                System.out.println("Vous avez perdu OUAHAHAHAHAHAHA");
-
+            combat.setChoixJoueur("Defense");
+            combat.combatJoueurMechant();
+            if (perso.getVie() <= 0){
+                System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
+                break;
             }
-
             if (mechant.getVie() <= 0) {
-                System.out.println("Tu as gagné bj");
-
+                System.out.println("vous avez vaincu le méchant");
+                break;
             }
-            break;
+
         }
 
 
