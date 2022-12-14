@@ -23,9 +23,9 @@ public class Combat {
 
     public void combatJoueurMechant() {
         if (choixJoueur == "Attaque" && choixMechant == "Attaque"){
-           mechant.setVie(mechant.getVie() - perso.getAttaque());
-           System.out.println("Le mechant a maintenant " + mechant.getVie() + " de vie.");
-           perso.setVie(perso.getVie() - mechant.getAttaque());
+            mechant.setVie(mechant.getVie() - perso.getAttaque());
+            System.out.println("Le mechant a maintenant " + mechant.getVie() + " de vie.");
+            perso.setVie(perso.getVie() - mechant.getAttaque());
             System.out.println("Le mechant vous a attaquez, vous avez maintenant" + perso.getVie() + " de vie.");
         }
         if (choixJoueur == "Attaque" && choixMechant == "Defense"){
@@ -98,7 +98,7 @@ public class Combat {
     }
 
     public void setChoixMechant(String choixMechant) {
-    this.choixMechant = choixMechant;
+        this.choixMechant = choixMechant;
     }
 
     public int getMechantVaincue() {
@@ -108,7 +108,7 @@ public class Combat {
     public void setMechantVaincue(int mechantVaincue) {
         MechantVaincue = mechantVaincue;
     }
-        public void Bonus(String bonus){
+    public void Bonus(String bonus){
         if (combatTerminer == true){
             MechantVaincue = MechantVaincue +1;
             System.out.println("Felicitation vous avez vaincus le boss n° " + getMechantVaincue());
@@ -127,5 +127,5 @@ public class Combat {
                 perso.setDefense(perso.getDefense() + 1);
             }
         }
-        }
     }
+}

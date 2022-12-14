@@ -8,6 +8,12 @@ public class Jeu {
     private int RegenAttaque;
     private int RegenVie;
     private int RegenDefense;
+
+    private int RegenAttaqueMechant;
+
+    private int RegenVieMechant;
+
+    private int RegenDefenseMechant;
     private String bonus;
     Perso perso = new Perso("Son Goku");
     Race race = Race.D;
@@ -17,6 +23,12 @@ public class Jeu {
     Combat combat = new Combat(perso, mechant);
 
     public Jeu() {
+       for(int i = 0; i<2; ++i){
+            combatUn();
+        }
+    }
+
+    public void combatUn(){
         System.out.println("Nom du perso " + perso.getNom() + " de la race " + race.getRace() + " de type " + type.getType() + " et il est " + genre.getGenre());
         System.out.println("Attaque de " + perso.getAttaque() + " ,Defense de " + perso.getDefense() + " avec " + perso.getVie() + " hp ");
         System.out.println("Nom du Méchant " + mechant.getNom());
@@ -24,6 +36,10 @@ public class Jeu {
         RegenAttaque = perso.getAttaque();
         RegenDefense = perso.getDefense();
         RegenVie = perso.getVie();
+
+        RegenAttaqueMechant = mechant.getAttaque();
+        RegenDefenseMechant = mechant.getDefense();
+        RegenVieMechant = mechant.getVie();
 
         while (perso.getVie() > 0 || mechant.getVie() > 0) {
             combat.ChoixDuMechant();
@@ -33,20 +49,38 @@ public class Jeu {
             combat.combatJoueurMechant();
             if (perso.getVie() <= 0) {
                 System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
-                combatTerminer = true;
+                combatTerminer = false;
                 break;
             }
             if (mechant.getVie() <= 0) {
                 System.out.println("vous avez vaincu le méchant");
                 combatTerminer = true;
+                regenCombat();
+                regenMechant();
+
                 break;
             }
         }
+
+    }
+
+
+    public void regenMechant(){
+        if (combatTerminer = true) {
+            mechant.setVie(RegenVieMechant +1);
+            mechant.setAttaque(RegenAttaqueMechant +1);
+            mechant.setDefense(RegenDefenseMechant +1);
+            System.out.println("Le mechant a "+ mechant.getVie()+ " , " + mechant.getDefense()+ " , "+ mechant.getAttaque());
+
+
+        }
+    }
+    public void regenCombat(){
+
         if (combatTerminer = true) {
             MechantVaincue = MechantVaincue +1;
             System.out.println("Felicitation vous avez vaincus le boss n° " + getMechantVaincue());
             perso.setVie(RegenVie);
-            System.out.println("p" + perso.getVie());
             perso.setAttaque(RegenAttaque);
             perso.setDefense(RegenDefense);
             System.out.println("Vous obtenez une régeneration de " + perso.getAttaque() + " d'attaque , " + perso.getVie() + " de vie , " + perso.getDefense() + " de defense");
@@ -76,5 +110,3 @@ public class Jeu {
         MechantVaincue = mechantVaincue;
     }
 }
-
-
