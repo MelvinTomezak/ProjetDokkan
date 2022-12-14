@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation d'un enum pour les differentes actions + creation du jeu en automatique + creation de test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2022_20_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_12_2022_20_59__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Genre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestPerso.ChoisirType">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Client" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
@@ -86,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerso.TestChoixDuMechant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerso.ChoisirType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +100,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
-      <option name="METHOD_NAME" value="TestChoixDuMechant" />
+      <option name="METHOD_NAME" value="ChoisirType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPerso.ChoisirType" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
         <item itemvalue="JUnit.TestPerso.TestCombatChoixJoueur" />
-        <item itemvalue="JUnit.TestPerso.TestChoixDuMechant" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +149,9 @@
       <workItem from="1670755622593" duration="2725000" />
       <workItem from="1670776968778" duration="11057000" />
       <workItem from="1670958657044" duration="1647000" />
+      <workItem from="1671026814158" duration="350000" />
+      <workItem from="1671029440998" duration="4626000" />
+      <workItem from="1671056517820" duration="5465000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -195,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670783676700</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois">
+      <created>1671026964854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671026964854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +226,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main/master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -232,6 +246,22 @@
     <MESSAGE value="Creation des classes combat et mechant" />
     <MESSAGE value="Creation de la classe combat + test" />
     <MESSAGE value="Creation du choix du mechant en aleatoire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation du choix du mechant en aleatoire" />
+    <MESSAGE value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>3</line>
+          <properties class="main.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package main;
 
 public enum Genre {
-    MAL("MASCULIN"), FEMME("FEMININ");
+    M("MASCULIN"), F("FEMININ");
     private String genre;
     private Genre(String genre){
         this.genre = genre;

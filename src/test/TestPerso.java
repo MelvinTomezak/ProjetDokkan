@@ -7,7 +7,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import java.net.MalformedURLException;
 
 public class TestPerso {
-    Perso perso = new Perso("Moha");
+    Perso perso = new Perso();
     Mechant mechant = new Mechant(5, 5, 5, "Djib");
     Combat combat = new Combat(perso, mechant);
     Race race = Race.A;
@@ -15,7 +15,7 @@ public class TestPerso {
 
     @Test
     void onCreeUnPerso (){
-        System.out.println("Votre nom est : " + perso.getNom());
+        System.out.println("Votre nom est : " );
         System.out.println("Votre niveau de vie est de : " + perso.getVie());
         System.out.println("Vous avez un niveau d'attaque de : " + perso.getAttaque());
         System.out.println("Votre niveau de défense est de : " + perso.getDefense());
@@ -44,7 +44,7 @@ public class TestPerso {
     @Test
     void TestCombatChoixJoueur() {
         combat.setChoixJoueur("Attaque");
-        combat.combatJoueurMechant();
+
     }
     @Test
     void TestChoixDuMechant() {
