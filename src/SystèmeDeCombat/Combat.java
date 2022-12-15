@@ -43,7 +43,7 @@ public class Combat  {
         String str = att.nextLine().toLowerCase();
         this.choixJoueur = str;
         ChoixDuMechant();
-        System.out.println(mechant.getNom() + " a choisi " + choixMechant);
+        System.out.println("Le mechant a choisi " + choixMechant);
         if (getChoixMechant().equals("defense") && getChoixJoueur().equals("defense")) {
                 System.out.println("vous etes tout les deux en position de defense");
             }
@@ -53,8 +53,8 @@ public class Combat  {
             System.out.println("Il lui reste" + mechant.getDefense() + " de defense");
             if (mechant.getDefense() <= 0){
                 System.out.println("La defense du mechant est brisee");
-                mechant.setDefense(0);
                 mechant.setVie(mechant.getVie() - perso.getAttaque());
+                System.out.println("Il lui reste" + mechant.getVie() + " de vie");
             }
         }
         if (getChoixMechant().equals("attaque") && getChoixJoueur().equals("defense")) {
@@ -63,7 +63,6 @@ public class Combat  {
                 System.out.println("Il vous reste " + perso.getDefense() + " de defense");
                 if (perso.getDefense() <= 0) {
                     System.out.println("Attention le mechant vous a brise votre defense, vous ne pouvez plus défendre");
-                    perso.setDefense(0);
                     perso.setVie(perso.getVie() - mechant.getAttaque());
                     System.out.println("Il vous reste" + perso.getVie() + " de vie");
                 }

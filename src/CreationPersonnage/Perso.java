@@ -36,7 +36,7 @@ public class Perso {
         TypeChoix(typeChoisi);
         System.out.println("Vous avez choisi le type : " + typeChoisi.getType());
         System.out.println("Vous êtes " + nom + " , un " + raceChoisie.getRace()+ " , de genre " + genreChoisi.getGenre()+ " , et du type " + typeChoisi );
-        System.out.println("Vous avez " + getAttaque() + " d'attaque, " + getDefense() + " de defense, " + getVie() + "de vie" );
+        System.out.println("Vous avez " + getAttaque() + " d'attaque, " + getDefense() + " de defense, " + getVie() + " de vie" );
 
     }
 

@@ -60,9 +60,8 @@ public class Jeu  {
     public void combatUn() {
         try {
             combatTerminer = false;
-            System.out.println("Attaque de " + perso.getAttaque() + " ,Defense de " + perso.getDefense() + " avec " + perso.getVie() + " hp ");
             System.out.println("Nom du Méchant " + mechant.getNom());
-            System.out.println(" Le mechant a " + mechant.getVie() + " de vie " + " il a " + mechant.getDefense() + " de defense" + " et d'attaque" + mechant.getAttaque());
+            System.out.println("Le mechant a " + mechant.getVie() + " de vie " + " , " + mechant.getDefense() + " de defense" + " et d'attaque" + mechant.getAttaque());
             RegenAttaque = perso.getAttaque();
             RegenDefense = perso.getDefense();
             RegenVie = perso.getVie();
@@ -107,9 +106,9 @@ public class Jeu  {
             perso.setVie(RegenVie);
             perso.setAttaque(RegenAttaque);
             perso.setDefense(RegenDefense);
-            System.out.println("Vous obtenez une régeneration " + perso.getAttaque() +" , " + perso.getVie() +" , " + perso.getDefense());
+            System.out.println("Vous obtenez une régeneration de " + perso.getAttaque() +" d'attaque, " + perso.getVie() +" de vie et " + perso.getDefense() + " de defense");
             Scanner bonusjoueur = new Scanner(System.in);
-            System.out.println("Vous pouvez maintenant choisir un bonus ");
+            System.out.println("Vous pouvez maintenant choisir un bonus, Saisisser Attaque pour avoir +1 en attaque, Defense pour avoir +1 en defense et Vie pour avoir +1 de vie");
             String bonus = bonusjoueur.nextLine();
             if (bonus.equals("Attaque") ){
                 perso.setAttaque(perso.getAttaque() + 1);
@@ -117,9 +116,11 @@ public class Jeu  {
             }
             if (bonus.equals("Defense")){
                 perso.setDefense(perso.getDefense() + 1);
+                System.out.println("Vous avez maintenant " + perso.getDefense() + " de defense");
             }
             if (bonus.equals("Vie")){
-                perso.setDefense(perso.getDefense() + 1);
+                perso.setVie(perso.getVie() + 1);
+                System.out.println("Vous avez maintenant " + perso.getVie() + " de vie");
             }
         }
     }
@@ -133,7 +134,7 @@ public class Jeu  {
             mechant.setVie(RegenVieMechant +1);
             mechant.setAttaque(RegenAttaqueMechant +1);
             mechant.setDefense(RegenDefenseMechant +1);
-            System.out.println("Le mechant a "+ mechant.getVie()+ " , " + mechant.getDefense()+ " , "+ mechant.getAttaque());
+            System.out.println("Le mechant a "  + mechant.getVie()+ " de Vie, " + mechant.getDefense()+ " de defense , "+ mechant.getAttaque() + "d'attaque");
         }
     }
 
@@ -142,10 +143,10 @@ public class Jeu  {
      */
     public void TransformationMechant() {
         if (combatTerminer == true) {
-            if (MechantVaincue == 10) {
+            if (MechantVaincue == 5) {
                 mechant = mechant2;
             }
-            if (MechantVaincue == 15) {
+            if (MechantVaincue == 10) {
                 mechant = mechant3;
             }
             if (MechantVaincue == 20) {

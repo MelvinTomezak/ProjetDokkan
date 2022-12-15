@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation de la JAVADOC">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation des differents mechants plus mise en forme de l'affichage.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavKkan/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Melvin/Documents/Cours"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadClientServeur.Client" />
@@ -227,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671141892746</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creation des differents mechants plus mise en forme de l'affichage.">
+      <created>1671144201291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671144201291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +276,8 @@
     <MESSAGE value="Mise en place du jeu en saisi" />
     <MESSAGE value="Correction des problemes dans le jeu" />
     <MESSAGE value="Creation de la JAVADOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation de la JAVADOC" />
+    <MESSAGE value="Creation des differents mechants plus mise en forme de l'affichage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation des differents mechants plus mise en forme de l'affichage." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
