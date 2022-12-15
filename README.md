@@ -7,6 +7,18 @@ Ce projet est une inspiration du jeu mobile __(Dragon Ball Z: Dokkan Battle)__
 Notre jeu s'appelle __JavKkan__, produit en Java, ce jeu met en pratique l'aventure d'un joueur dans l'univers de Dragon Ball.  
 *un manga d'Akira Toriyama racontant le parcours de Son Goku, depuis l'enfance jusqu'à l'âge adulte. [Wikipédia de la page Dragon Ball](https://fr.wikipedia.org/wiki/Dragon_Ball)*
 
+Pour lancer le jeu :  
+```
+package main;
+import JavKkan.Jeu;
+
+public class Main {
+    public static void main(String[] args) {
+        new Jeu();
+    }
+}
+```
+
 Au début du jeu vous choisirez un __nom de joueur__ *( mon préferé c'est Xx_Mohammed_xX )*, ensuite ce sera au tour de la __race__,  
 vous aurez le choix entre : 
 * __Cyborg__
