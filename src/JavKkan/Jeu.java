@@ -24,16 +24,6 @@ public class Jeu  {
 
     Perso perso = new Perso();
     Mechant mechant = new Mechant(5, 5, 5, "Tao-Pai-Pai");
-    Mechant mechant2 = new Mechant(10,10,10,"Piccolo Daimäo");
-    Mechant mechant3 = new Mechant(15,15,15,"Raditz");
-    Mechant mechant4 = new Mechant(20, 20, 20, "Nappa");
-    Mechant mechant5 = new Mechant(30, 30, 30, "Vegeta");
-    Mechant mechant6 = new Mechant(40,40,40,"Commando Ginyu");
-    Mechant mechant7 = new Mechant(45,45,45,"Freezer");
-    Mechant mechant8 = new Mechant(50,50,50,"C17");
-    Mechant mechant9 = new Mechant(50,50,50,"C18");
-    Mechant mechant10 = new Mechant(50,50,50,"Cell");
-    Mechant mechant11 = new Mechant (55,55,55,"BUU");
 
     Combat combat = new Combat(perso, mechant);
     TableauScore tableauScore = new TableauScore();
@@ -144,34 +134,34 @@ public class Jeu  {
     public void TransformationMechant() {
         if (combatTerminer == true) {
             if (MechantVaincue == 5) {
-                mechant = mechant2;
+                mechant.setNom("Daimao");
             }
             if (MechantVaincue == 10) {
-                mechant = mechant3;
+                mechant.setNom("Raditz");
             }
             if (MechantVaincue == 20) {
-                mechant = mechant4;
+                mechant.setNom("Nappa");
             }
             if (MechantVaincue == 30) {
-                mechant = mechant5;
+                mechant.setNom("Vegeta");
             }
             if (MechantVaincue == 40) {
-                mechant = mechant6;
+                mechant.setNom("CommandoGinyu");
             }
             if (MechantVaincue == 45) {
-                mechant = mechant7;
+                mechant.setNom("Freezer");
             }
             if (MechantVaincue == 50) {
-                mechant = mechant8;
+                mechant.setNom("C17");
             }
             if (MechantVaincue == 55) {
-                mechant = mechant9;
+                mechant.setNom("C18");
             }
             if (MechantVaincue == 60) {
-                mechant = mechant10;
+                mechant.setNom("Cell");
             }
             if (MechantVaincue == 65) {
-                mechant = mechant11;
+                mechant.setNom("Buu");
             }
         }
     }
