@@ -1,6 +1,7 @@
 package main;
 
-import org.w3c.dom.ls.LSOutput;
+import CreationPersonnage.Perso;
+import SystèmeDeCombat.Combat;
 
 import java.util.Scanner;
 
@@ -27,6 +28,7 @@ public class Jeu  {
        for(int i = 0; i<2; ++i){
             combatUn();
         }
+
     }
 
     public void combatUn() {
@@ -46,7 +48,7 @@ public class Jeu  {
             while (perso.getVie() > 0 || mechant.getVie() > 0) {
                 combat.ChoixDuMechant();
                 System.out.println("Choix du mechant " + combat.getChoixMechant());
-                combat.ChoixDuJoueur();
+                combat.CombatJoueurMechant();
 
                 if (perso.getVie() <= 0) {
                     System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
@@ -57,16 +59,21 @@ public class Jeu  {
                 if (mechant.getVie() <= 0) {
                     System.out.println("vous avez vaincu le méchant");
                     combatTerminer = true;
+                    calculerScore();
                     Bonus();
                     regenMechant();
                     break;
                 }
             }
 
-
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void calculerScore(){
+        int score = perso.getVie() + MechantVaincue;
+        System.out.println("Votre score est de : " + score);
     }
 
     public void Bonus(){
@@ -79,9 +86,10 @@ public class Jeu  {
             System.out.println("Vous obtenez une régeneration " + perso.getAttaque() +" , " + perso.getVie() +" , " + perso.getDefense());
             Scanner bonusjoueur = new Scanner(System.in);
             System.out.println("Vous pouvez maintenant choisir un bonus ");
-            String bonus = bonusjoueur.nextLine().toLowerCase();
+            String bonus = bonusjoueur.nextLine();
             if (bonus.equals("Attaque") ){
                 perso.setAttaque(perso.getAttaque() + 1);
+                System.out.println("Vous avez maintenant " + perso.getAttaque() + " d'attaque");
             }
             if (bonus.equals("Defense")){
                 perso.setDefense(perso.getDefense() + 1);

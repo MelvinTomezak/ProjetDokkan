@@ -1,4 +1,4 @@
-package main;
+package CreationPersonnage;
 
 public enum Race {
     A("cyborg"), B("majin"), C("namek"),D("saiyan"), E("terrien");

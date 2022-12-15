@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Mise en place du jeu en saisi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Genre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Perso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Serveur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/Serveur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TaskServeurEcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/TaskServeurEcho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,13 +54,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestPerso.ChoisirType">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Client" />
+      <option name="MAIN_CLASS_NAME" value="ThreadClientServeur.Client" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="ThreadClientServeur.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +73,7 @@
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="ThreadClientServeur.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="Serveur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Serveur" />
+      <option name="MAIN_CLASS_NAME" value="ThreadClientServeur.Serveur" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="ThreadClientServeur.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPerso.ChoisirType" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
+        <item itemvalue="JUnit.TestPerso.ChoisirType" />
         <item itemvalue="JUnit.TestPerso.TestCombatChoixJoueur" />
       </list>
     </recent_temporary>
@@ -151,7 +155,9 @@
       <workItem from="1670958657044" duration="1647000" />
       <workItem from="1671026814158" duration="350000" />
       <workItem from="1671029440998" duration="4626000" />
-      <workItem from="1671056517820" duration="5465000" />
+      <workItem from="1671056517820" duration="6044000" />
+      <workItem from="1671095986339" duration="327000" />
+      <workItem from="1671107729234" duration="9845000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -209,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671026964854</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mise en place du jeu en saisi">
+      <created>1671062365425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671062365425</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,20 +260,16 @@
     <MESSAGE value="Creation de la classe combat + test" />
     <MESSAGE value="Creation du choix du mechant en aleatoire" />
     <MESSAGE value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
+    <MESSAGE value="Mise en place du jeu en saisi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du jeu en saisi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>3</line>
-          <properties class="main.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

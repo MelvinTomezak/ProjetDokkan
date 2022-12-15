@@ -1,4 +1,4 @@
-package main;
+package CreationPersonnage;
 
 public enum Type {
     Agi("Agilité"), Pui("Puissance"), Tech("Technique"), Int("Intelligence"), End("Endurance");

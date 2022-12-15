@@ -1,4 +1,6 @@
-package main;
+package ThreadClientServeur;
+
+import main.Jeu;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

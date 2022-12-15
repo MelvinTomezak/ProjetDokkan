@@ -1,4 +1,4 @@
-package main;
+package CreationPersonnage;
 
 import java.util.Scanner;
 public class Perso {
@@ -23,12 +23,11 @@ public class Perso {
 
         System.out.println("Choisissez votre type (Agi, Pui, Tech, Int ou End) : ");
         Type typeChoisi = Type.valueOf(sc.nextLine());
-
+        TypeChoix(typeChoisi);
         System.out.println(nom + " , " + raceChoisie.getRace()+ " , " + genreChoisi.getGenre()+ " , " + typeChoisi );
+        System.out.println(getVie()+" , " +getDefense()+" , " +getAttaque());
 
     }
-
-
 
     public void Race(Race choice) {
         Race race;
@@ -49,7 +48,10 @@ public class Perso {
             case F -> genre = Genre.F;
         }
     }
-    public void Type(Type choix) {
+    public void initializeType() {
+
+    }
+    public void TypeChoix(Type choix) {
         Type type;
         switch (choix) {
             case Agi:
@@ -57,11 +59,13 @@ public class Perso {
                 vie=9;
                 defense=9;
                 attaque=9;
+                break;
             case Pui:
                 type = Type.Pui;
                 vie = 8;
                 defense = 11;
                 attaque = 11;
+                break;
             case Tech:
                 type = Type.Tech;
                 vie = 10;

@@ -1,4 +1,4 @@
-package main;
+package CreationPersonnage;
 
 public enum Genre {
     M("MASCULIN"), F("FEMININ");

@@ -1,10 +1,10 @@
-package test;
+/*package test;
 
+import CreationPersonnage.Perso;
+import CreationPersonnage.Race;
+import CreationPersonnage.Type;
 import main.*;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-
-import java.net.MalformedURLException;
 
 public class TestPerso {
     Perso perso = new Perso();
@@ -20,7 +20,7 @@ public class TestPerso {
         System.out.println("Vous avez un niveau d'attaque de : " + perso.getAttaque());
         System.out.println("Votre niveau de défense est de : " + perso.getDefense());
         System.out.println("Vous avez un niveau d'attaque de : " + perso.getAttaque());
-        perso.Type(Type.Agi);
+
         System.out.println("Nouvelle valeur d'attaque : " + perso.getAttaque());
         System.out.println("Nouvelle valeur de défense :" + perso.getDefense());
         System.out.println("Nouvelle valeur de vie :" + perso.getVie());
@@ -52,3 +52,6 @@ public class TestPerso {
         System.out.println(combat.getChoixMechant());
     }
 }
+
+
+ */
