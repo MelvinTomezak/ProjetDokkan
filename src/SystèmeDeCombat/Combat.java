@@ -21,10 +21,22 @@ public class Combat  {
 
     private int RegenDefense;
 
+    /**
+     * Dans le constructeur combat nous definissons des éléments de la classe Perso et de la classe Mechant.
+     * @param perso
+     * @param mechant
+     */
     public Combat(Perso perso, Mechant mechant) {
         this.perso = perso;
         this.mechant = mechant;
     }
+
+    /**
+     * Dans la fonction CombatJoueurMechant nous allons demander à l'utilisateur de choisir d'attaquer et de défendre
+     * et en fonction de ce choix nous avons défini les actions sur la defense et l'attaque du Mechant.
+     * De même pour le mechant nous appelons la fonction ChoixDuMechant pour obtenir le choix de l'action du mechant
+     * et nous avons défini les actions en conséquence sur la defense et l'attaque du Perso.
+     */
     public void CombatJoueurMechant () {
         System.out.println("Veuillez saisir soit Attaque soit Defense :");
         Scanner att = new Scanner(System.in);
@@ -62,6 +74,12 @@ public class Combat  {
                 System.out.println("Il reste au mechant " + mechant.getVie() + " de vie");
             }
     }
+
+    /**
+     * La fonction ChoixDuMechant vas permettre d'effectuer un choix aléatoire pour l'action du mechant entre
+     * (attaque et défense) mais elle aussi faire en sorte que s'il a plus de défense il ne puisse plus
+     * effectuer ce choix.
+     */
     public void ChoixDuMechant() {
         Random random = new Random();
         choi = random.nextBoolean();

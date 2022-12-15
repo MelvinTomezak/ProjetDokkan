@@ -9,6 +9,12 @@ public class Perso {
 
     private int defense ;
 
+    /**
+     * Le constructeur perso va permettre à l'utilisateur de commencer le jeu en creeant son personnage
+     * en choisissant un nom, une race de personnage, un genre ainsi qu'un type qui va lui procurer une
+     * amélioration sur ses statistiques.
+     */
+
     public Perso() {
         Scanner sc= new Scanner(System.in);
 
@@ -29,6 +35,11 @@ public class Perso {
 
     }
 
+    /**
+     * La fonction Race va prendre choice en paramètre, cette fonction vas permettre d'associer aux différentes
+     * cases du switch des éléments de l'enum Race.
+     * @param choice
+     */
     public void Race(Race choice) {
         Race race;
         switch (choice) {
@@ -41,6 +52,12 @@ public class Perso {
         }
         System.out.println(choice);
     }
+
+    /**
+     * La fonction Genre va prendre choi en paramètre, cette fonction vas permettre d'associer aux
+     * différentes cases du switch des éléments de l'enum Genre.
+     * @param choi
+     */
     public void Genre(Genre choi) {
         Genre genre;
         switch (choi){
@@ -48,9 +65,12 @@ public class Perso {
             case F -> genre = Genre.F;
         }
     }
-    public void initializeType() {
 
-    }
+    /**
+     * La fonction TypeChoix va prendre choix en paramètre, cette fonction vas permettre d'associer aux différentes
+     * cases du switch des éléments de l'enum Type et modifier les statistiques du personnage selon le choix du type.
+     * @param choix
+     */
     public void TypeChoix(Type choix) {
         Type type;
         switch (choix) {

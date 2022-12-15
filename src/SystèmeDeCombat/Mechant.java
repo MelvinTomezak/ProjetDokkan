@@ -5,9 +5,15 @@ public class Mechant {
     private int defense ;
     private int vie ;
     private String nom;
-    private String Transformation;
-    private String Attkspe;
 
+    /**
+     * Le constructeur Mechant vas prendre en parametre une attaque, defense, vie et un nom qui vas nous permettre
+     * de creer les différents mechants du jeu.
+     * @param attaque
+     * @param defense
+     * @param vie
+     * @param nom
+     */
     public Mechant(int attaque, int defense, int vie, String nom) {
         this.attaque = attaque;
         this.defense = defense;
@@ -45,21 +51,5 @@ public class Mechant {
 
     public void setNom(String nom) {
         this.nom = nom;
-    }
-
-    public String getTransformation() {
-        return Transformation;
-    }
-
-    public void setTransformation(String transformation) {
-        Transformation = transformation;
-    }
-
-    public String getAttkspe() {
-        return Attkspe;
-    }
-
-    public void setAttkspe(String attkspe) {
-        Attkspe = attkspe;
     }
 }

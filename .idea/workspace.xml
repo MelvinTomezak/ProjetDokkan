@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Reglement des problèmes">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Correction des problemes dans le jeu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavKkan/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavKkan/TableauScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/TableauScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Mechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Mechant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671062365425</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Correction des problemes dans le jeu">
+      <created>1671139719788</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671139719788</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +263,8 @@
     <MESSAGE value="Creation du choix du mechant en aleatoire" />
     <MESSAGE value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
     <MESSAGE value="Mise en place du jeu en saisi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du jeu en saisi" />
+    <MESSAGE value="Correction des problemes dans le jeu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction des problemes dans le jeu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,15 +273,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="6" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>4</line>
-          <properties class="main.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
