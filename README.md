@@ -3,6 +3,7 @@
 Ce projet est une inspiration du jeu mobile __(Dragon Ball Z: Dokkan Battle)__  
 ![image_dokkan](https://user-images.githubusercontent.com/92590811/207865398-b30140e5-0314-4bf9-a73d-2d7b70cf9a1b.png)
 
+## Présentation du jeu  
 Notre jeu s'appelle __JavKkan__, produit en Java, ce jeu met en pratique l'aventure d'un joueur dans l'univers de Dragon Ball.  
 *un manga d'Akira Toriyama racontant le parcours de Son Goku, depuis l'enfance jusqu'à l'âge adulte. [Wikipédia de la page Dragon Ball](https://fr.wikipedia.org/wiki/Dragon_Ball)*
 
@@ -58,11 +59,11 @@ Après qu'un boss est atteint ses statistiques maximales et que vous le battez, 
 
 Plus votre __vie__ est élevée à la fin d'une victoire face à un boss plus votre score sera élevé.
 
-*Cela vous fait 2 manières d'obtenir un __score élevé__, laquelle choisirez-vous ?* 
+*Cela vous fait 2 manières d'obtenir un __score élevé__, laquelle choisirez-vous ?*  
 
+## Diagrammes
 
-
-
+<img align="center" src="https://cdn.discordapp.com/attachments/885150703134326865/1053066404280152075/image.png" width="800" height="600"/>  
 
 ## Membres
 
