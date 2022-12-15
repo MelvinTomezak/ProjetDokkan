@@ -1,6 +1,6 @@
 # README du Projet JavKkan
 
-Ce projet est une inspiration du jeu mobile __(Dragon Ball Z: Dokkan Battle)__
+Ce projet est une inspiration du jeu mobile __(Dragon Ball Z: Dokkan Battle)__  
 ![image_dokkan](https://user-images.githubusercontent.com/92590811/207865398-b30140e5-0314-4bf9-a73d-2d7b70cf9a1b.png)
 
 Notre jeu s'appelle __JavKkan__, produit en Java, ce jeu met en pratique l'aventure d'un joueur dans l'univers de Dragon Ball.  
@@ -23,10 +23,12 @@ Une fois la race sélectionnée vous devrez choisir votre __type__ parmi :
 
 *Chaque type vous donnera des avantages sur une des statistiques dans les combats à venir*
 
-Parlons de vos statistiques, il en existe 3 :
+Parlons de vos __statistiques__, il en existe 3 :
 * __La vie__ 
 * __L'attaque__ 
 * __La défense__
+
+*Ces statistiques sont vouées a changer à le fin de chaque combat, elles seront mis à jour automatiquement* 
 
 
 Vous aurez à affronter de nombreux boss dans ce jeu : 
@@ -34,14 +36,32 @@ Vous aurez à affronter de nombreux boss dans ce jeu :
 * __Cell__
 * __Boo__
 
-Comme écrit au-dessus dans ce jeu vous allez affronter différents boss, tous plus redoutables que leurs compères,
+Comme écrit au-dessus dans ce jeu vous allez affronter différents boss, tous plus redoutables que leurs compères.
 
-A chaque fois que vous tuerez un boss celui-ci reviendra encore plus fort, et ses statistiques 
+Chaque fois que vous tuerez un boss celui-ci reviendra encore plus fort, et ses statistiques augmenteront pour le prochain combat.
+
+Évidemment les vôtres vont augmenter aussi mais contrairement au boss ce sera à vous de choisir parmi les 3 laquelle vous souhaiterez augmenter.  
+
+*C'est un petit bonus que je vous offre : )*
+
+Une fois que le __boss__ aura atteint ses statistiques maximales, vous passerez enfin au suivant !  
+
+Si votre statistique __Vie__ atteint 0, je vous laisse deviner ce qui va se passer ...  
+
+C'est __la fin de l'aventure__ pour vous, votre score va s'afficher.  
+
+Votre __score__ sera calculé de la manière suivante :  
+
+Après qu'un boss est atteint ses statistiques maximales et que vous le battez, je récupère la valeur de votre statistique __Vie__, Ce sera votre score. 
+
+*Plus vous battez de boss plus votre score sera élevé mais nous pouvons voir la chose d'une autre __manière__ !*  
+
+Plus votre __vie__ est élevée à la fin d'une victoire face à un boss plus votre score sera élevé.
+
+*Cela vous fait 2 manières d'obtenir un __score élevé__, laquelle choisirez-vous ?* 
 
 
-// systeme de jeu contre boss, apres ennemie change, fin de comabt bonus ennemioe et mooi 
-apres bat ennemie reforcement et apres chjange
-score fin de combat = ma vie enregistrement des pointd a chaque partie recap de fin de partie 
+
 
 
 ## Membres
