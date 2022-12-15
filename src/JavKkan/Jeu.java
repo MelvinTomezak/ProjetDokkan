@@ -23,8 +23,17 @@ public class Jeu  {
 
 
     Perso perso = new Perso();
-    Mechant mechant = new Mechant(5, 5, 5, "Freezer");
-    Mechant mechantCell = new Mechant(15,15,15,"Cell");
+    Mechant mechant = new Mechant(5, 5, 5, "Tao-Pai-Pai");
+    Mechant mechant2 = new Mechant(10,10,10,"Piccolo Daimäo");
+    Mechant mechant3 = new Mechant(15,15,15,"Raditz");
+    Mechant mechant4 = new Mechant(20, 20, 20, "Nappa");
+    Mechant mechant5 = new Mechant(30, 30, 30, "Vegeta");
+    Mechant mechant6 = new Mechant(40,40,40,"Commando Ginyu");
+    Mechant mechant7 = new Mechant(45,45,45,"Freezer");
+    Mechant mechant8 = new Mechant(50,50,50,"C17");
+    Mechant mechant9 = new Mechant(50,50,50,"C18");
+    Mechant mechant10 = new Mechant(50,50,50,"Cell");
+    Mechant mechant11 = new Mechant (55,55,55,"BUU");
 
     Combat combat = new Combat(perso, mechant);
     TableauScore tableauScore = new TableauScore();
@@ -37,7 +46,6 @@ public class Jeu  {
 
         for(int i = 0; i<100; ++i){
             combatUn();
-            TransformationMechant();
         }
         tableauScore.ajoutScore(calculerScore());
         System.out.println("Le meilleur score est de : " + tableauScore.getMeilleurScore());
@@ -51,6 +59,7 @@ public class Jeu  {
      */
     public void combatUn() {
         try {
+            combatTerminer = false;
             System.out.println("Attaque de " + perso.getAttaque() + " ,Defense de " + perso.getDefense() + " avec " + perso.getVie() + " hp ");
             System.out.println("Nom du Méchant " + mechant.getNom());
             System.out.println(" Le mechant a " + mechant.getVie() + " de vie " + " il a " + mechant.getDefense() + " de defense" + " et d'attaque" + mechant.getAttaque());
@@ -63,7 +72,7 @@ public class Jeu  {
             while (perso.getVie() > 0 || mechant.getVie()>0) {
                 combat.CombatJoueurMechant();
                 if (perso.getVie() <= 0) {
-                    System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
+                    System.out.println("vous avez perdu dommage relancer une partie");
                     JoueurPerdu = true;
                     System.exit(1);
                 }
@@ -131,17 +140,40 @@ public class Jeu  {
     /**
      * La fonction TransformationMechant va permettre si le combat est fini d'avoir une chance de changer de méchant.
      */
-    public void TransformationMechant(){
-        if (getMechantVaincue() % 3 == 0){
-            if (mechant.getNom().equals("Freezer")){
-                mechant = mechantCell;
-                System.out.println("Le mechant a changé, c'est maintenant Cell !");
-                System.out.println("Attaque de " + mechant.getAttaque() + " ,Defense de " + mechant.getDefense() + " avec " + mechant.getVie() + " hp ");
+    public void TransformationMechant() {
+        if (combatTerminer == true) {
+            if (MechantVaincue == 10) {
+                mechant = mechant2;
+            }
+            if (MechantVaincue == 15) {
+                mechant = mechant3;
+            }
+            if (MechantVaincue == 20) {
+                mechant = mechant4;
+            }
+            if (MechantVaincue == 30) {
+                mechant = mechant5;
+            }
+            if (MechantVaincue == 40) {
+                mechant = mechant6;
+            }
+            if (MechantVaincue == 45) {
+                mechant = mechant7;
+            }
+            if (MechantVaincue == 50) {
+                mechant = mechant8;
+            }
+            if (MechantVaincue == 55) {
+                mechant = mechant9;
+            }
+            if (MechantVaincue == 60) {
+                mechant = mechant10;
+            }
+            if (MechantVaincue == 65) {
+                mechant = mechant11;
             }
         }
-
     }
-
     public int getMechantVaincue() {
         return MechantVaincue;
     }

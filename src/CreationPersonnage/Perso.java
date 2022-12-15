@@ -16,22 +16,27 @@ public class Perso {
      */
 
     public Perso() {
+        System.out.println("------------------------------------------------------------------------------");
+        System.out.println("Bienvenue dans JavKhan un jeu inspiré de l'univers de DragonBall");
+        System.out.println("------------------------------------------------------------------------------");
         Scanner sc= new Scanner(System.in);
 
         System.out.println("Choisissez un nom pour votre personnage : ");
         String nom = sc.nextLine();
 
-        System.out.println("Choisissez votre race (A,B,C,D ou E) : ");
+        System.out.println("Choisissez une race parmi Cyborg (Saisisser A), Majin (Saisisser B), Namek (Saisisser C), Saiyan (Saisisser D), Terrien(Saisisser E)");
         Race raceChoisie = Race.valueOf(sc.nextLine());
+        System.out.println("Vous êtes désormais un " + raceChoisie.getRace());
 
-        System.out.println("Choisissez votre genre (Masculin ou Feminin) : ");
+        System.out.println("Choisissez votre genre (M pour Masculin et F pour Feminin) : ");
         Genre genreChoisi = Genre.valueOf(sc.nextLine());
-
+        System.out.println("Vous êtes desormais du genre : " + genreChoisi.getGenre());
         System.out.println("Choisissez votre type (Agi, Pui, Tech, Int ou End) : ");
         Type typeChoisi = Type.valueOf(sc.nextLine());
         TypeChoix(typeChoisi);
-        System.out.println(nom + " , " + raceChoisie.getRace()+ " , " + genreChoisi.getGenre()+ " , " + typeChoisi );
-        System.out.println(getVie()+" , " +getDefense()+" , " +getAttaque());
+        System.out.println("Vous avez choisi le type : " + typeChoisi.getType());
+        System.out.println("Vous êtes " + nom + " , un " + raceChoisie.getRace()+ " , de genre " + genreChoisi.getGenre()+ " , et du type " + typeChoisi );
+        System.out.println("Vous avez " + getAttaque() + " d'attaque, " + getDefense() + " de defense, " + getVie() + "de vie" );
 
     }
 

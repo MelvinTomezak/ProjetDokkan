@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Correction des problemes dans le jeu">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation de la JAVADOC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavKkan/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavKkan/TableauScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/TableauScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Mechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Mechant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestPerso.testPerso">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadClientServeur.Client" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
@@ -122,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPerso.testPerso" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestPerso.testPerso" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
         <item itemvalue="JUnit.TestPerso.ChoisirType" />
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671139719788</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creation de la JAVADOC">
+      <created>1671141892746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671141892746</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +267,8 @@
     <MESSAGE value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
     <MESSAGE value="Mise en place du jeu en saisi" />
     <MESSAGE value="Correction des problemes dans le jeu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction des problemes dans le jeu" />
+    <MESSAGE value="Creation de la JAVADOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation de la JAVADOC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
