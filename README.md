@@ -19,6 +19,12 @@ public class Main {
 }
 ```
 
+On peut aussi lancer le jeux via le Client en lançant ce dernier et le serveur qui sont en multi thread, une fois cela fait, il faut dans le terminal Client :
+
+* ecrire "lancer" pour lancer le jeu
+
+* ecrire "quit" pour quitter le serveur et le jeu
+
 Au début du jeu vous choisirez un __nom de joueur__ *( mon préferé c'est Xx_Mohammed_xX )*, ensuite ce sera au tour de la __race__,  
 vous aurez le choix entre : 
 * __Cyborg__
