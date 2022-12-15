@@ -23,12 +23,15 @@ public class Jeu  {
     Mechant mechantCell = new Mechant(15,15,15,"Cell");
 
     Combat combat = new Combat(perso, mechant);
+    TableauScore tableauScore = new TableauScore();
 
     public Jeu() {
 
-       for(int i = 0; i<2; ++i){
+        for(int i = 0; i<2; ++i){
             combatUn();
         }
+        tableauScore.ajoutScore(calculerScore());
+        System.out.println("Le meilleur score est de : " + tableauScore.getMeilleurScore());
 
     }
 
@@ -72,9 +75,9 @@ public class Jeu  {
         }
     }
 
-    public void calculerScore(){
+    public int calculerScore(){
         int score = perso.getVie() + MechantVaincue;
-        System.out.println("Votre score est de : " + score);
+        return score;
     }
 
     public void Bonus(){

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Mise en place du jeu en saisi">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Reglement des problèmes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +148,7 @@
       <workItem from="1671056517820" duration="6044000" />
       <workItem from="1671095986339" duration="327000" />
       <workItem from="1671107729234" duration="9845000" />
+      <workItem from="1671125356725" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -260,6 +261,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="6" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>4</line>
+          <properties class="main.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
