@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Ajout du score et de la fonction de tri qui donne le meilleur score en fin de partie">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Reglement des problèmes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavKkan/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadClientServeur/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Mechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Mechant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TableauScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/TableauScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +46,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Melvin/Documents/Cours/SAELAVRAI&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestPerso.testPerso">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadClientServeur.Client" />
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
@@ -111,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerso.TestCombatChoixJoueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPerso.testPerso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CANALE Enzo - KADDOURI Mohammed - TOMEZAK Melvin" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestPerso" />
-      <option name="METHOD_NAME" value="TestCombatChoixJoueur" />
+      <option name="METHOD_NAME" value="testPerso" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPerso.testPerso" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Serveur" />
         <item itemvalue="JUnit.TestPerso.ChoisirType" />
-        <item itemvalue="JUnit.TestPerso.TestCombatChoixJoueur" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +150,7 @@
       <workItem from="1671056517820" duration="6044000" />
       <workItem from="1671095986339" duration="327000" />
       <workItem from="1671107729234" duration="9845000" />
-      <workItem from="1671125356725" duration="8847000" />
+      <workItem from="1671125356725" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1669282532070</created>
@@ -224,14 +215,7 @@
       <option name="project" value="LOCAL" />
       <updated>1671062365425</updated>
     </task>
-    <task id="LOCAL-00010" summary="Ajout du score et de la fonction de tri qui donne le meilleur score en fin de partie">
-      <created>1671126171906</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1671126171906</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,8 +254,7 @@
     <MESSAGE value="Creation du choix du mechant en aleatoire" />
     <MESSAGE value="Mise en fonction regen joueur et mechant + boucle ennemi plusieurs fois" />
     <MESSAGE value="Mise en place du jeu en saisi" />
-    <MESSAGE value="Ajout du score et de la fonction de tri qui donne le meilleur score en fin de partie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du score et de la fonction de tri qui donne le meilleur score en fin de partie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du jeu en saisi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,6 +263,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="6" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>4</line>
+          <properties class="main.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Jeu  {
     private boolean combatTerminer;
+    private boolean JoueurPerdu = false;
     private int MechantVaincue;
     private int RegenAttaque;
     private int RegenVie;
@@ -54,12 +55,12 @@ public class Jeu  {
             RegenVieMechant = mechant.getVie();
 
             while (perso.getVie() > 0 || mechant.getVie()>0) {
-                combat.ChoixDuMechant();
-                System.out.println("Choix du mechant " + combat.getChoixMechant());
                 combat.CombatJoueurMechant();
 
                 if (perso.getVie() <= 0) {
                     System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
+                    JoueurPerdu = true;
+                    System.exit(1);
                 }
 
                 if (mechant.getVie() <= 0) {
@@ -68,6 +69,7 @@ public class Jeu  {
                     calculerScore();
                     Bonus();
                     regenMechant();
+                    TransformationMechant();
                     break;
                 }
             }

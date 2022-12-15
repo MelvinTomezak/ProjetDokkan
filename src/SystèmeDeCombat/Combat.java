@@ -31,54 +31,36 @@ public class Combat  {
         String str = att.nextLine().toLowerCase();
         this.choixJoueur = str;
         ChoixDuMechant();
-        if (getChoixJoueur().equals("defense")){
-            System.out.println("Vous etes en position de defense ");
-            if (getChoixMechant() == "defense"){
+        System.out.println(mechant.getNom() + " a choisi " + choixMechant);
+        if (getChoixMechant().equals("defense") && getChoixJoueur().equals("defense")) {
                 System.out.println("vous etes tout les deux en position de defense");
             }
-            if (perso.getDefense() <= 0) {
-                System.out.println("Attention le mechant vous a brise votre defense");
-                setChoixJoueur(str);
+        if (getMechant().equals("defense") && getChoixJoueur().equals("attaque")){
+            System.out.println("Vous allez attaquez la defense du mechant");
+            mechant.setDefense(mechant.getDefense() - perso.getAttaque());
+            System.out.println("Il lui reste" + mechant.getDefense() + " de defense");
+            if (mechant.getDefense() <= 0){
+                System.out.println("La defense du mechant est brisee");
+                mechant.setDefense(0);
+                mechant.setVie(mechant.getVie() - perso.getAttaque());
             }
         }
-        if (getChoixJoueur().equals("attaque")) {
-            if (getChoixMechant().equals("attaque")) {
+        if (getChoixMechant().equals("attaque") && getChoixJoueur().equals("defense")) {
+                System.out.println("Le mechant veut briser votre defense");
+                perso.setDefense(perso.getDefense() - mechant.getAttaque());
+                System.out.println("Il vous reste " + perso.getDefense() + " de defense");
+                if (perso.getDefense() <= 0) {
+                    System.out.println("Attention le mechant vous a brise votre defense, vous ne pouvez plus défendre");
+                    perso.setDefense(0);
+                    perso.setVie(perso.getVie() - mechant.getAttaque());
+                    System.out.println("Il vous reste" + perso.getVie() + " de vie");
+                }
+            }
+        if (getChoixJoueur().equals("attaque") && getChoixMechant().equals("attaque")) {
                 System.out.println("Etant donner que le mechant attaque vous attaquez ces points de vie.");
                 mechant.setVie(mechant.getVie() - perso.getAttaque());
                 System.out.println("Il reste au mechant " + mechant.getVie() + " de vie");
             }
-            if (getChoixMechant().equals("defense")){
-                System.out.println("Le mechant est en position de defense");
-                mechant.setDefense(mechant.getDefense() - perso.getAttaque());
-                System.out.println("Il reste au mechant " + mechant.getDefense() + " de defense");
-                if (mechant.getDefense() <= 0) {
-                    System.out.println("Vous avez brise la defense du mechant, vous pouvez maintenant attaque ces points de vie");
-                }
-            }
-        }
-        if(getChoixMechant().equals("defense")) {
-            System.out.println("Le mechant est en position de defense");
-            if (getChoixJoueur().equals("defense")){
-                System.out.println("Vous etes tout les deux en position de defense");
-                System.out.println("Il vous reste " + perso.getVie() + " de vie");
-            }
-            if (mechant.getDefense() <= 0) {
-                System.out.println("La defense du mechant est brisee");
-            }
-        }
-        if (getChoixMechant().equals("attaque")) {
-            System.out.println("Le mechant choisi d'attaquer");
-            if (getChoixJoueur().equals("attaque")){
-                System.out.println("Vous etes tout les deux en position d'attaques le mechant vas donc attaquer vos points de vie");
-                perso.setVie(perso.getVie() - mechant.getAttaque());
-                System.out.println("Il vous reste " + perso.getVie() + " de vie");
-            }
-            if (getChoixJoueur().equals("defense")){
-                System.out.println("Le mechant vas attaquer votre defense");
-                perso.setDefense(perso.getDefense() - mechant.getAttaque());
-                System.out.println("Il vous reste " + perso.getDefense() + " de defense.");
-            }
-        }
     }
     public void ChoixDuMechant() {
         Random random = new Random();

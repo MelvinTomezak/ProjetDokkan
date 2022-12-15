@@ -11,5 +11,9 @@ public enum Race {
         return this.race;
     }
 
+    public void setRace() {
+        this.race = race;
+        }
+    }
 
-}
+
