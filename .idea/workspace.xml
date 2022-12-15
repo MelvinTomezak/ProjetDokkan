@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Creation des differents mechants plus mise en forme de l'affichage.">
+    <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Commit final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavKkan/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavKkan/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671144201291</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit final">
+      <created>1671145162721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671145162721</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +282,8 @@
     <MESSAGE value="Correction des problemes dans le jeu" />
     <MESSAGE value="Creation de la JAVADOC" />
     <MESSAGE value="Creation des differents mechants plus mise en forme de l'affichage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation des differents mechants plus mise en forme de l'affichage." />
+    <MESSAGE value="Commit final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

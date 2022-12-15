@@ -47,8 +47,6 @@ public class Jeu  {
         for(int i = 0; i<100; ++i){
             combatUn();
         }
-        tableauScore.ajoutScore(calculerScore());
-        System.out.println("Le meilleur score est de : " + tableauScore.getMeilleurScore());
     }
 
     /**
@@ -73,6 +71,8 @@ public class Jeu  {
                 if (perso.getVie() <= 0) {
                     System.out.println("vous avez perdu dommage relancer une partie");
                     JoueurPerdu = true;
+                    tableauScore.ajoutScore(calculerScore());
+                    System.out.println("Le meilleur score est de : " + tableauScore.getMeilleurScore());
                     System.exit(1);
                 }
                 if (mechant.getVie() <= 0) {
