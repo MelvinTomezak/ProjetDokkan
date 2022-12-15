@@ -20,6 +20,7 @@ public class Jeu  {
 
     Perso perso = new Perso();
     Mechant mechant = new Mechant(5, 5, 5, "Freezer");
+    Mechant mechantCell = new Mechant(15,15,15,"Cell");
 
     Combat combat = new Combat(perso, mechant);
 

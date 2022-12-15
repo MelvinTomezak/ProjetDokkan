@@ -65,7 +65,6 @@ public class Combat  {
             }
             if (mechant.getDefense() <= 0) {
                 System.out.println("La defense du mechant est brisee");
-                setChoixMechant(choixMechant);
             }
         }
         if (getChoixMechant().equals("attaque")) {
@@ -90,6 +89,9 @@ public class Combat  {
         }
         if (choi == false) {
             setChoixMechant("defense");
+        }
+        if (mechant.getDefense() <= 0){
+            setChoixMechant("attaque");
         }
     }
     public Perso getPerso() {

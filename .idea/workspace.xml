@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28255e4a-7f51-4fc3-a0b8-4d41a737e2b1" name="Changes" comment="Mise en place du jeu en saisi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystèmeDeCombat/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Jeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Perso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Perso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Serveur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/Serveur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TaskServeurEcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadClientServeur/TaskServeurEcho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationPersonnage/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TestPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestPerso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
