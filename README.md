@@ -75,6 +75,8 @@ Plus votre __vie__ est élevée à la fin d'une victoire face à un boss plus vo
 
 ## Diagrammes
 
+
+__Diagramme cas d'utilisation :__  
 <img align="center" src="https://cdn.discordapp.com/attachments/885150703134326865/1053066404280152075/image.png" width="800" height="600"/>  
 
 ## Membres
