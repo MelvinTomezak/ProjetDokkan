@@ -11,18 +11,21 @@ public class Perso {
 
     public Perso() {
         Scanner sc= new Scanner(System.in);
-
         System.out.println("Choisissez un nom pour votre personnage : ");
         String nom = sc.nextLine();
 
         System.out.println("Choisissez votre race (A,B,C,D ou E) : ");
         Race raceChoisie = Race.valueOf(sc.nextLine());
 
-        System.out.println("Choisissez votre genre (Masculin ou Feminin) : ");
+
+        System.out.println("Choisissez votre genre (M (Masculin) ou F (Feminin)) : ");
         Genre genreChoisi = Genre.valueOf(sc.nextLine());
+
 
         System.out.println("Choisissez votre type (Agi, Pui, Tech, Int ou End) : ");
         Type typeChoisi = Type.valueOf(sc.nextLine());
+
+
         TypeChoix(typeChoisi);
         System.out.println(nom + " , " + raceChoisie.getRace()+ " , " + genreChoisi.getGenre()+ " , " + typeChoisi );
         System.out.println(getVie()+" , " +getDefense()+" , " +getAttaque());
@@ -46,10 +49,8 @@ public class Perso {
         switch (choi){
             case M -> genre = Genre.M;
             case F -> genre = Genre.F;
-        }
-    }
-    public void initializeType() {
 
+        }
     }
     public void TypeChoix(Type choix) {
         Type type;

@@ -1,7 +1,6 @@
 package SystèmeDeCombat;
 
 import CreationPersonnage.Perso;
-import main.Mechant;
 
 import java.util.Random;
 import java.util.Scanner;

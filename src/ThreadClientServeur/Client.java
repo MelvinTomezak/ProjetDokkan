@@ -1,6 +1,6 @@
 package ThreadClientServeur;
 
-import main.Jeu;
+import JavKkan.Jeu;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

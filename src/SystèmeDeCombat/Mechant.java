@@ -1,9 +1,9 @@
-package main;
+package SystèmeDeCombat;
 
 public class Mechant {
-    private int attaque = 5;
-    private int defense = 5;
-    private int vie = 5;
+    private int attaque ;
+    private int defense ;
+    private int vie ;
     private String nom;
     private String Transformation;
     private String Attkspe;

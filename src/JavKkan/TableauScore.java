@@ -1,4 +1,4 @@
-package main;
+package JavKkan;
 
 import java.util.ArrayList;
 import java.util.Collections;

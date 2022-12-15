@@ -1,7 +1,9 @@
-package main;
+package JavKkan;
 
 import CreationPersonnage.Perso;
 import SystèmeDeCombat.Combat;
+import SystèmeDeCombat.Mechant;
+
 
 import java.util.Scanner;
 
@@ -18,6 +20,7 @@ public class Jeu  {
 
     private int RegenDefenseMechant;
 
+
     Perso perso = new Perso();
     Mechant mechant = new Mechant(5, 5, 5, "Freezer");
     Mechant mechantCell = new Mechant(15,15,15,"Cell");
@@ -27,8 +30,9 @@ public class Jeu  {
 
     public Jeu() {
 
-        for(int i = 0; i<2; ++i){
+        for(int i = 0; i<100; ++i){
             combatUn();
+            TransformationMechant();
         }
         tableauScore.ajoutScore(calculerScore());
         System.out.println("Le meilleur score est de : " + tableauScore.getMeilleurScore());
@@ -49,17 +53,15 @@ public class Jeu  {
             RegenDefenseMechant = mechant.getDefense();
             RegenVieMechant = mechant.getVie();
 
-            while (perso.getVie() > 0 || mechant.getVie() > 0) {
+            while (perso.getVie() > 0 || mechant.getVie()>0) {
                 combat.ChoixDuMechant();
                 System.out.println("Choix du mechant " + combat.getChoixMechant());
                 combat.CombatJoueurMechant();
 
                 if (perso.getVie() <= 0) {
                     System.out.println("vous avez perdu ZUHAHAHAHHAHAHA");
-                    combatTerminer = false;
-                    break;
-
                 }
+
                 if (mechant.getVie() <= 0) {
                     System.out.println("vous avez vaincu le méchant");
                     combatTerminer = true;
@@ -69,6 +71,10 @@ public class Jeu  {
                     break;
                 }
             }
+
+
+
+
 
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -112,6 +118,16 @@ public class Jeu  {
         }
     }
 
+    public void TransformationMechant(){
+        if (getMechantVaincue() % 3 == 0){
+            if (mechant.getNom().equals("Freezer")){
+                mechant = mechantCell;
+                System.out.println("Le mechant a changé, c'est maintenant Cell !");
+                System.out.println("Attaque de " + mechant.getAttaque() + " ,Defense de " + mechant.getDefense() + " avec " + mechant.getVie() + " hp ");
+            }
+        }
+
+    }
 
     public int getMechantVaincue() {
         return MechantVaincue;
